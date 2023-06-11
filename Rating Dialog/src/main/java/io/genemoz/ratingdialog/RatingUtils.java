@@ -9,6 +9,7 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
 
@@ -61,7 +62,7 @@ public class RatingUtils {
         dialog.setCancelable(true);
 
         MaterialCardView btnLove = dialog.findViewById(R.id.btnLoveIt);
-        MaterialCardView btnClose = dialog.findViewById(R.id.closeBtn);
+        ImageView btnClose = dialog.findViewById(R.id.closeBtn);
         MaterialCardView btnRate = dialog.findViewById(R.id.btnSubmit);
         MaterialCardView btnImprove = dialog.findViewById(R.id.btnImprove);
         MaterialCardView btnSendFeedback = dialog.findViewById(R.id.FBSend);
