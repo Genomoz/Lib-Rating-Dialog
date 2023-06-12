@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         RatingUtils ratingUtils = new RatingUtils(this);
-        ratingUtils.setTargetLaunchCount(3);
+        ratingUtils.setTargetLaunchCount(6);
         ratingUtils.startLaunchCounting(true);
         ratingUtils.setDialog();
 
