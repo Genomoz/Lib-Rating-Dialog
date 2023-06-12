@@ -3,7 +3,7 @@
 ##### Dependency
 
 ```java
-implementation 'com.github.Genomoz:Lib-Rating-Dialog:0.1'
+implementation 'com.github.Genomoz:Lib-Rating-Dialog:0.2'
 ```
 ##### onclick Listener
 
